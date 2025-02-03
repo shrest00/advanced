@@ -1,0 +1,61 @@
+body{
+    margin: 1;
+    padding: 1;
+}
+
+ul li{
+    list-style-type: circle;
+}
+
+ol li{
+    list-style-type: lower-roman;
+}
+
+ul li:nth-child(3){
+    color: red;
+}
+
+ul li:nth-child(4){
+    color: red;
+}
+
+ol li:nth-child(even){
+    font-size: 24px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+
+}
+
+div p:first-of-type{
+    font-style: italic;
+}
+
+div:nth-of-type(2) p {
+    color: white;
+}
+
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border:none;
+
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+button:active {
+    border-radius: 0px;
+    width: 200px;
+    height: 150px;
+}
+
